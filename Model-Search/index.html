@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<title>3D Model Image Search</title>
+<link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="bg-gray-100 flex flex-col min-h-screen">
+        <script src="https://js.puter.com/v2/"></script>
+        <header class="bg-red-500 text-white p-4">
+            <div class="container mx-auto">
+                <h1 class="text-3xl font-bold">3D Model Image Search</h1>
+                
+            </div>
+        </header>
+
+        <script src="script.js"></script>
+        <input type="file" id="imageInput" accept="image/*">
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 rounded" onclick="convertImage()">Search for 3D Model</button>
+        <div class="container" id="image-container"></div>
+
+
+
+    </body>
+</html>
